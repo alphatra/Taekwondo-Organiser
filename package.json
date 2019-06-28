@@ -15,10 +15,13 @@
     "@fortawesome/fontawesome-free": "^5.9.0",
     "bootstrap": "^4.3.1",
     "bulma": "^0.7.5",
+    "bulma-dashboard": "^0.1.40",
     "rollup-plugin-postcss": "^2.0.3",
     "shards-ui": "^2.1.2",
     "sirv-cli": "^0.4.4",
-    "svelma": "0.0.9"
+    "svelma": "0.0.9",
+    "svelte-routing": "^1.2.1",
+    "tailwindcss": "^1.0.4"
   },
   "scripts": {
     "build": "rollup -c",

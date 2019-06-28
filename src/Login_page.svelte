@@ -2,7 +2,7 @@
   import 'bulma/css/bulma.css';
   import '@fortawesome/fontawesome-free/css/all.css';
   import {Router, Link, Route} from "svelte-routing";
-  import Menu from './routes/Menu.svelte';
+  import App from './App.svelte';
   let username = "admin"
   let password = "admin"
   let user="";
@@ -10,7 +10,7 @@
   let action = ""
   export let url = "";
   $: if(user === username, pass === password){
-	  action = "Menu"
+	  action = "App"
   }
 </script>
 <svelte:head>
@@ -84,5 +84,5 @@
 		</div>
 	</div>
 	</section></Route>
-	<Route path="Menu" component="{Menu}"></Route>
+	<Route path="App" component="{App}"></Route>
 </Router>
